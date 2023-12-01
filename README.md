@@ -2,16 +2,18 @@ _Repositori ini dibuat guna menambah portopolio dengan melakukan Web Scraping pa
 
 ---
 
-## Instructions and Cases
+## Latar Belakang
+Seblak  adalah masakan khas Sunda yang berasal dari wilayah Parahyangan dengan cita rasa gurih dan pedas. Seblak umumnya terbuat dari kerupuk yang terdiri dari bawang putih dengan kencur. 
 
-#### Case
-Kamu ingin menambah pendapatanmu dengan berjualan. Namun, kamu tidak punya cukup modal untuk produksi barang dan hanya cukup untuk promosi, sehingga kamu memutuskan untuk menjalanan skema dropship di platform Tokopedia.
+Kata seblak sendiri juga merupakan singkatan dari segak dan nyegak. Kedua istilah tersebut berasal dari bahasa Sunda yang artinya lebih kurang “menyengat”.
 
-Kamu masih bingung akan berjualan apa dan teringat bahwa saat ini sedang viral seblak. Namun, kamu tidak yakin apakah benar bahwa masyarakat memiliki animo yang besar terhadap seblak.
+Beberapa minggu belakangan ini seblak sendiri sempat ramai disosial media, oleh karena itu saya tertarik untuk melakukan web scraping tentang seblak.
 
-Karena kamu lulusan bootcamp Data Science Hacktiv8, dengan kemampuan dan pengetahuan kamu, kamu ingin menganalisis bagaimana penjualan produk seblak di Tokopedia. Apakah orang suka, apakah banyak yang beli, dsb.
+Saya ingin mengetahui apakah menjual seblak atau menjadi dropshiper seblak sangat menguntungkan sehingga bisa menjadi pekerjaan sampingan melalui platform jual-beli. Juga apakah k yang beli, dsb.
 
-Tantangannya, kamu tidak punya data sama sekali selain yang terpampang pada website e-commerce Tokopedia. Oleh karena itu, perjalanan kamu dimulai dari pengambilan data menggunakan Web Scraping!
+Namun saya tidak memiliki data tentang penjualan seblak, maka dari itu saya melakukan web scraping pada salah satu platform ecomerce yaitu Tokopedia.
+
+---
 
 #### A. Web Scraping
 1. Pengambilan data dari halaman pencarian kata kunci produk "seblak" pada platform Tokopedia.
@@ -23,11 +25,15 @@ Tantangannya, kamu tidak punya data sama sekali selain yang terpampang pada webs
 
 4. setelah berhasil scraping, Data akan disimpan ke pandas data frame dan kemudian diolah.
 
+---
+
 #### B. Data Preparation
 
 1. Lakukan eksplorasi data sederhana:
 2. Lakukan data cleaning:
   Pada data cleaning akan dilakukan handling missing value bila ada, mengubah bentuk data menjadi konsisten dan menyesuaikan tipe data, etc. 
+
+---
 
 #### C. Analysis
   Dalam melakukan analisa data ada 4 poin yang ingin ssaya ketahui:
@@ -40,4 +46,4 @@ Tantangannya, kamu tidak punya data sama sekali selain yang terpampang pada webs
 4. Apakah orang lebih cenderung suka dengan produk yang harganya murah? Disini saya akan melakukan uji korelasi dengan menganalisis nilai korelasi dan p-value
 
 #### E. Conclusion
-  Kesimpulan  berisis hasil analisis 4 poin diatas.
+  Kesimpulan  berisi hasil analisis 4 poin diatas.
